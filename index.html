@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#myPage">Home</a>
+          <a class="navbar-brand" href="#myPage">HOME</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
@@ -52,15 +52,19 @@
   <div id="about" class="container">
     <div class="imgDes">
       <h2>About</h2>
-      <h4>Lorem ipsum dolor site</h4>
-      <p>Lorem ipsum dolor sit amet.</p>
-      <button class="btn btn-default btn-lg">Get in Touch</button>
+      <h4>Front-end engineer and tech enthusiast.</h4>
+      <p></p>
+      <button class="btn btn-default btn-lg" onClick="getInTouch()">Get in Touch</button>
     </div>
 
     <img src="./Images/pp.jpeg" class="img-circle imageclass" alt="profilePicture">
 
   </div>
-
+  <script>
+    var getInTouch = () => {
+      location.href = "mailto:harshgupta_7@hotmail.com";
+    }
+  </script>
 <!-- MY SKILLS -->
 
   <div id="skills" class="container-fluid text-center">
